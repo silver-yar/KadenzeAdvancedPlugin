@@ -13,15 +13,14 @@
 KAPMainPanel::KAPMainPanel(KadenzeAdvancedPluginAudioProcessor& p)
         : KAPPanelBase (p)
 {
+    setSize(MAIN_PANEL_WIDTH, MAIN_PANEL_HEIGHT);
 
+    topPanel_ = std::make_unique<KAPTopPanel>(p);
+    topPanel_ -> setTopLeftPosition (0, 0);
+    addAndMakeVisible (topPanel_.get());
 }
 
 KAPMainPanel::~KAPMainPanel()
-{
-
-}
-
-void KAPMainPanel::paint(juce::Graphics& g)
 {
 
 }

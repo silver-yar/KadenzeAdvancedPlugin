@@ -10,6 +10,7 @@
 
 #include <JuceHeader.h>
 #include "PluginProcessor.h"
+#include "../Panels/KAPMainPanel.h"
 
 //==============================================================================
 /**
@@ -25,9 +26,9 @@ public:
     void resized() override;
 
 private:
-    // This reference is provided as a quick way for your editor to
-    // access the processor object that created it.
     KadenzeAdvancedPluginAudioProcessor& audioProcessor;
+
+    std::unique_ptr<KAPMainPanel> mainPanel_;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (KadenzeAdvancedPluginAudioProcessorEditor)
 };

@@ -11,6 +11,7 @@
 #pragma once
 
 #include "KAPPanelBase.h"
+#include "KAPTopPanel.h"
 
 class KAPMainPanel
         : public KAPPanelBase
@@ -19,7 +20,6 @@ public:
     KAPMainPanel(KadenzeAdvancedPluginAudioProcessor&);
     ~KAPMainPanel();
 
-    void paint(juce::Graphics& g) override;
 private:
-//    KadenzeAdvancedPluginAudioProcessor& audioProcessor_;
+    std::unique_ptr<KAPTopPanel> topPanel_;
 };
