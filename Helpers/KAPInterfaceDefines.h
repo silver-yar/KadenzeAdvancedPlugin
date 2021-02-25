@@ -10,7 +10,7 @@
 
 #pragma once
 
-const static int MAIN_PANEL_WIDTH = 700;
+const static int MAIN_PANEL_WIDTH = 750;
 const static int MAIN_PANEL_HEIGHT = 300;
 
 constexpr static int TOP_PANEL_WIDTH = MAIN_PANEL_WIDTH;

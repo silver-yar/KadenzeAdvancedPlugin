@@ -9,3 +9,17 @@
 */
 
 #pragma once
+
+#include "KAPPanelBase.h"
+#include "KAPCenterPanelMenuBar.h"
+
+class KAPCenterPanel
+        : public KAPPanelBase
+{
+public:
+    KAPCenterPanel(KadenzeAdvancedPluginAudioProcessor&);
+    ~KAPCenterPanel();
+
+private:
+    std::unique_ptr<KAPCenterPanelMenuBar> centerPanelMenuBar_;
+};
