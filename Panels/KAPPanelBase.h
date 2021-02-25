@@ -12,6 +12,7 @@
 
 #include "JuceHeader.h"
 #include "../Source/PluginProcessor.h"
+#include "../Helpers/KAPInterfaceDefines.h"
 
 class KAPPanelBase
         : public juce::Component
