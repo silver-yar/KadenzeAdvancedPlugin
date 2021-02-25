@@ -12,8 +12,33 @@
       <FILE id="L6oncU" name="KAPLfo.cpp" compile="1" resource="0" file="DSP/KAPLfo.cpp"/>
       <FILE id="hG2mPy" name="KAPLfo.h" compile="0" resource="0" file="DSP/KAPLfo.h"/>
     </GROUP>
+    <GROUP id="{0AF930AF-5C85-A053-2122-2FC668E4A064}" name="Panels">
+      <FILE id="nokqvF" name="KAPCenterPanel.cpp" compile="1" resource="0"
+            file="Panels/KAPCenterPanel.cpp"/>
+      <FILE id="zmWSdW" name="KAPCenterPanel.h" compile="0" resource="0"
+            file="Panels/KAPCenterPanel.h"/>
+      <FILE id="t1wS5z" name="KAPCenterPanelMenuBar.cpp" compile="1" resource="0"
+            file="Panels/KAPCenterPanelMenuBar.cpp"/>
+      <FILE id="vEtePX" name="KAPCenterPanelMenuBar.h" compile="0" resource="0"
+            file="Panels/KAPCenterPanelMenuBar.h"/>
+      <FILE id="h6GrXl" name="KAPFxPanel.cpp" compile="1" resource="0" file="Panels/KAPFxPanel.cpp"/>
+      <FILE id="wEGmMx" name="KAPFxPanel.h" compile="0" resource="0" file="Panels/KAPFxPanel.h"/>
+      <FILE id="bMB9iV" name="KAPGainPanel.cpp" compile="1" resource="0"
+            file="Panels/KAPGainPanel.cpp"/>
+      <FILE id="MPnFbc" name="KAPGainPanel.h" compile="0" resource="0" file="Panels/KAPGainPanel.h"/>
+      <FILE id="exljUv" name="KAPMainPanel.cpp" compile="1" resource="0"
+            file="Panels/KAPMainPanel.cpp"/>
+      <FILE id="nWiCpk" name="KAPMainPanel.h" compile="0" resource="0" file="Panels/KAPMainPanel.h"/>
+      <FILE id="tWsKBj" name="KAPPanelBase.cpp" compile="1" resource="0"
+            file="Panels/KAPPanelBase.cpp"/>
+      <FILE id="rOtARk" name="KAPPanelBase.h" compile="0" resource="0" file="Panels/KAPPanelBase.h"/>
+      <FILE id="UdMFvw" name="KAPTopPanel.cpp" compile="1" resource="0" file="Panels/KAPTopPanel.cpp"/>
+      <FILE id="GvDmqx" name="KAPTopPanel.h" compile="0" resource="0" file="Panels/KAPTopPanel.h"/>
+    </GROUP>
     <GROUP id="{67A1412B-847C-C5E0-B8AB-5A79C384C0E7}" name="Helpers">
       <FILE id="ftKKyb" name="KAPhelper.h" compile="0" resource="0" file="Helpers/KAPhelper.h"/>
+      <FILE id="STpF8a" name="KAPInterfaceDefines.h" compile="0" resource="0"
+            file="Helpers/KAPInterfaceDefines.h"/>
     </GROUP>
     <GROUP id="{A4965533-291F-AA7B-5A6F-EB924C98CD0C}" name="Source">
       <FILE id="w3HsYW" name="PluginProcessor.cpp" compile="1" resource="0"

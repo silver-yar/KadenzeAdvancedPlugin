@@ -9,3 +9,19 @@
 */
 
 #include "KAPMainPanel.h"
+
+KAPMainPanel::KAPMainPanel(KadenzeAdvancedPluginAudioProcessor& p)
+        : KAPPanelBase (p)
+{
+
+}
+
+KAPMainPanel::~KAPMainPanel()
+{
+
+}
+
+void KAPMainPanel::paint(juce::Graphics& g)
+{
+
+}

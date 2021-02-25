@@ -18,6 +18,8 @@ class KAPMainPanel
 public:
     KAPMainPanel(KadenzeAdvancedPluginAudioProcessor&);
     ~KAPMainPanel();
+
+    void paint(juce::Graphics& g) override;
 private:
-    KadenzeAdvancedPluginAudioProcessor& audioProcessor_;
+//    KadenzeAdvancedPluginAudioProcessor& audioProcessor_;
 };
